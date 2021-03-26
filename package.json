@@ -3,12 +3,9 @@
   "version": "0.1.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leo1305Pineda/ion-media-cache.git"
+    "url": "git+https://github.com/Leo1305Pineda/ion-media-cache.git"
   },
-  "author": {
-    "name": "Leonardo Pineda",
-    "email": "leo1305pineda@gmail.com"
-  },
+  "author": "Leonardo Pineda <leo1305pineda@gmail.com>",
   "license": "MIT",
   "keywords": [
     "ionic",
@@ -38,5 +35,11 @@
   "dependencies": {
     "fs-web": "^1.0.1",
     "tslib": "^2.1.0"
-  }
+  },
+  "description": "Directive cache multimedia.",
+  "bugs": {
+    "url": "https://github.com/Leo1305Pineda/ion-media-cache/issues"
+  },
+  "homepage": "https://github.com/Leo1305Pineda/ion-media-cache#readme",
+  "main": "karma.conf.js"
 }
