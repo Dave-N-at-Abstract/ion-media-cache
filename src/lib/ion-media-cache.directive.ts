@@ -316,7 +316,7 @@ export class IonMediaCacheDirective implements OnInit {
   private setImage(imageUrl: string): void {
     this.ionImgDidLoad.emit(false);
     this.config.isFallback = false;
-    const src = imageUrl || this.config.fallbackUrl;
+      const src = imageUrl + `?cache_buster=${Date.now()}`; || this.config.fallbackUrl + `?cache_buster=${Date.now()}`;
     if (this.config.render !== 'src') {
       if (this.config.render === 'background') {
         var bgImg = new Image();
